@@ -1,0 +1,6 @@
+framework module Pods_JSDSDKKit_Example {
+  umbrella header "Pods-JSDSDKKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

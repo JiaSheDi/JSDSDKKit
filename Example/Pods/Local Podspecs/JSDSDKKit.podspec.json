@@ -1,0 +1,22 @@
+{
+  "name": "JSDSDKKit",
+  "version": "0.1.0",
+  "summary": "A short description of JSDSDKKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JSD/JSDSDKKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JSD": "15073005143@163.com"
+  },
+  "source": {
+    "git": "https://github.com/JSD/JSDSDKKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JSDSDKKit/Classes/**/*"
+}
