@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JSDSDKKit_Example' do
+  pod 'JSDSDKKit', :path => '../'
+
+  target 'JSDSDKKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
