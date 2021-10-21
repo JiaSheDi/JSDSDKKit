@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JSDKitTools.h"
 
 FOUNDATION_EXPORT double JSDSDKKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char JSDSDKKitVersionString[];

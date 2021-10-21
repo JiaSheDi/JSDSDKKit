@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		01B33EB66D2E316912DFA75E /* Pods_JSDSDKKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSDSDKKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F5E86C1112E3CF6BFDFD8B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0F5E86C1112E3CF6BFDFD8B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		34E2FD38B58086AE1AF7D561 /* Pods-JSDSDKKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSDSDKKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-JSDSDKKit_Example/Pods-JSDSDKKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		599F21621B7CE4B8E7EEC10C /* Pods-JSDSDKKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSDSDKKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JSDSDKKit_Tests/Pods-JSDSDKKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JSDSDKKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSDSDKKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,12 +60,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		7152FC19BFF621A6EC8CED9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7152FC19BFF621A6EC8CED9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8970AFEA6957A61102E05250 /* Pods-JSDSDKKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSDSDKKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-JSDSDKKit_Tests/Pods-JSDSDKKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0067F85FBEF9B518AA8C59A /* Pods-JSDSDKKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSDSDKKit_Example.release.xcconfig"; path = "Target Support Files/Pods-JSDSDKKit_Example/Pods-JSDSDKKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B65B62D825C9D5A0D3A78616 /* JSDSDKKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JSDSDKKit.podspec; path = ../JSDSDKKit.podspec; sourceTree = "<group>"; };
+		B65B62D825C9D5A0D3A78616 /* JSDSDKKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JSDSDKKit.podspec; path = ../JSDSDKKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F91AA4CD8A95DBEF450E910D /* Pods_JSDSDKKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSDSDKKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				599F21621B7CE4B8E7EEC10C /* Pods-JSDSDKKit_Tests.debug.xcconfig */,
 				8970AFEA6957A61102E05250 /* Pods-JSDSDKKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

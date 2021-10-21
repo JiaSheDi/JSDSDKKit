@@ -22,7 +22,7 @@ pod 'JSDSDKKit'
 
 ## Author
 
-JSD, 15073005143@163.com
+Jiashedi
 
 ## License
 
