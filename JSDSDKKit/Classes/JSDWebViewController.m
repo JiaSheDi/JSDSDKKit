@@ -43,7 +43,7 @@
         _webView.allowsBackForwardNavigationGestures = YES;
         _webView.navigationDelegate = self;
         _webView.scrollView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
-        _webView.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+
     }
     return _webView;
 }
