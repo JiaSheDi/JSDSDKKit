@@ -1,9 +1,13 @@
+source "https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git"
+
+source "https://github.com/JiaSheDi/JSDSDKKitSpec.git"
+
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'JSDSDKKit_Example' do
-  pod 'JSDSDKKit', :path => '../'
+  pod 'JSDSDKKit'
 
   target 'JSDSDKKit_Tests' do
     inherit! :search_paths

@@ -7,67 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13190876D5C167C2199567562C0B74DB /* JSDKitTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C408394BB5E7ACF6F9B88BCA825732C /* JSDKitTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13190876D5C167C2199567562C0B74DB /* JSDKitTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7323036D328DD9CDDDFC93AAC4B0C7A8 /* JSDKitTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A332DE511740067C8D9FB39E0657FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		551C3BCF6755FE012F2B0531C2B3B875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5D5E56BE96D2352C79674014AFBF5B5F /* Pods-JSDSDKKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F4AB394C70F5446C950A352FB8CD67 /* Pods-JSDSDKKit_Tests-dummy.m */; };
-		6BC96ED07F00EC306A24DB7E36D514ED /* JSDKitTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D07210D3B6144F10310B54F5A9D66 /* JSDKitTools.m */; };
+		6BC96ED07F00EC306A24DB7E36D514ED /* JSDKitTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E7D10FAB72C1981A610E5DB53B29E /* JSDKitTools.m */; };
 		752007675E3335A484C75F048AF0D67F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8F16A2A2C22AC53354DADB75D1B34F63 /* Pods-JSDSDKKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1ECDC096B42C4F65CB43C4B24D4F2B /* Pods-JSDSDKKit_Example-dummy.m */; };
-		992C45A839601749ACFEDF53CE6E14AF /* JSDSDKKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1295EB3EE19640784E2734124396A6 /* JSDSDKKit-dummy.m */; };
+		992C45A839601749ACFEDF53CE6E14AF /* JSDSDKKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 633195EBFE94B00416CB405ABF53FCEB /* JSDSDKKit-dummy.m */; };
 		C0EF8037861EE0C3F6C989EEEA49429B /* Pods-JSDSDKKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6801DB4E3E923FD5CA8B71C4D8B9E1 /* Pods-JSDSDKKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D81859165EA579EC85DC28B42C55D7ED /* Pods-JSDSDKKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BEF1DB5A79AF24101D8813C7D84332 /* Pods-JSDSDKKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E31385DD19BEAFC435E05D3E803F7110 /* JSDSDKKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F71BEF27F722E10CE0D45CE5CB8058 /* JSDSDKKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E31385DD19BEAFC435E05D3E803F7110 /* JSDSDKKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 731333D06C2B8CE32046561E92065AD4 /* JSDSDKKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7003C83404DA2FDC34F1426D25537DE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E86CE6BC12D47E7753EDD2CDCDA62782;
-			remoteInfo = "Pods-JSDSDKKit_Example";
-		};
-		E50A3F65D24680BD44FCC67B0BA0C2DF /* PBXContainerItemProxy */ = {
+		19FA1B1DE599595707F6B30633CC3A8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0F9D3561F7A8E9B20CFA6F8D9281AA55;
 			remoteInfo = JSDSDKKit;
 		};
+		5C4D3266A142DD6DC26AD60127EDE45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E86CE6BC12D47E7753EDD2CDCDA62782;
+			remoteInfo = "Pods-JSDSDKKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1991BCA5857FF922AA36B5C3B524C9C5 /* Pods-JSDSDKKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSDSDKKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1C0C7D5204D343546278504FD46E9B13 /* JSDSDKKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSDSDKKit-prefix.pch"; sourceTree = "<group>"; };
 		21DC242E8C68ED5B9EBBA55B34B9FDA7 /* Pods-JSDSDKKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSDSDKKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		240B22BD8B28C8C8412699DF477A5373 /* Pods-JSDSDKKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSDSDKKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		29F0CD71F8A3A346317131DDFB9EBA4C /* JSDSDKKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSDSDKKit.debug.xcconfig; sourceTree = "<group>"; };
+		273F675FD0BA80F8A27DFCE00BD1E7A8 /* JSDSDKKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSDSDKKit-prefix.pch"; sourceTree = "<group>"; };
 		3093687A3B8365DE3F5FB0BDB9436574 /* Pods-JSDSDKKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSDSDKKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		369B360BBECBC562EBECF4903470D02C /* JSDSDKKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSDSDKKit-Info.plist"; sourceTree = "<group>"; };
+		34FF79743C4311DD8F3C70379171B04A /* JSDSDKKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSDSDKKit.modulemap; sourceTree = "<group>"; };
 		37237361B63A6D5BFB1A27838A9B5A6C /* Pods-JSDSDKKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSDSDKKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3864FF4D23E780E5607E17B7D7D2CB5C /* Pods-JSDSDKKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSDSDKKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		449C6F721A7948F464A6CE0E27EF9DE7 /* Pods_JSDSDKKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSDSDKKit_Example.framework; path = "Pods-JSDSDKKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4529437ED91B1D247056E8AEC4991657 /* JSDSDKKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSDSDKKit.release.xcconfig; sourceTree = "<group>"; };
 		4E1ECDC096B42C4F65CB43C4B24D4F2B /* Pods-JSDSDKKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSDSDKKit_Example-dummy.m"; sourceTree = "<group>"; };
 		62E53BECA9299A2C274DAD7EC20CDDDC /* Pods-JSDSDKKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSDSDKKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64F71BEF27F722E10CE0D45CE5CB8058 /* JSDSDKKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSDSDKKit-umbrella.h"; sourceTree = "<group>"; };
-		6BB2586C8590CE29F5C137175AC97AA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		633195EBFE94B00416CB405ABF53FCEB /* JSDSDKKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSDSDKKit-dummy.m"; sourceTree = "<group>"; };
+		6F2E7D10FAB72C1981A610E5DB53B29E /* JSDKitTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSDKitTools.m; path = JSDSDKKit/Classes/JSDKitTools.m; sourceTree = "<group>"; };
+		708889F255674A844CF281AA607CA9A2 /* JSDSDKKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSDSDKKit.release.xcconfig; sourceTree = "<group>"; };
 		70C4C6E5D830CF84C514A58685CC4F31 /* JSDSDKKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSDSDKKit.framework; path = JSDSDKKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		731333D06C2B8CE32046561E92065AD4 /* JSDSDKKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSDSDKKit-umbrella.h"; sourceTree = "<group>"; };
+		7323036D328DD9CDDDFC93AAC4B0C7A8 /* JSDKitTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSDKitTools.h; path = JSDSDKKit/Classes/JSDKitTools.h; sourceTree = "<group>"; };
 		7C07C4FEE960196B1B4B24F20C76C00C /* Pods-JSDSDKKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSDSDKKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8DAC72ACA0CD65341D04663EF1BA68FB /* JSDSDKKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSDSDKKit.modulemap; sourceTree = "<group>"; };
-		934D07210D3B6144F10310B54F5A9D66 /* JSDKitTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSDKitTools.m; path = JSDSDKKit/Classes/JSDKitTools.m; sourceTree = "<group>"; };
 		935C92D4690F8CE2FEC12E02B3BDA1D5 /* Pods-JSDSDKKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSDSDKKit_Tests.modulemap"; sourceTree = "<group>"; };
 		9B9395E192BBCB43CB30652D8EF25BCC /* Pods-JSDSDKKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSDSDKKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9C408394BB5E7ACF6F9B88BCA825732C /* JSDKitTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSDKitTools.h; path = JSDSDKKit/Classes/JSDKitTools.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1C880BBC4A9ED2624962B6C29931ED6 /* JSDSDKKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JSDSDKKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA1295EB3EE19640784E2734124396A6 /* JSDSDKKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSDSDKKit-dummy.m"; sourceTree = "<group>"; };
 		AAC13F80156234D8BC6CD001199AAD61 /* Pods_JSDSDKKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSDSDKKit_Tests.framework; path = "Pods-JSDSDKKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2853F5614E787B3EF74A2A69E8047BD /* Pods-JSDSDKKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSDSDKKit_Example.modulemap"; sourceTree = "<group>"; };
+		C324F8735CECFB92CEFDCE338419983E /* JSDSDKKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSDSDKKit-Info.plist"; sourceTree = "<group>"; };
+		C623EFDEB1A7CF8DE9313A24FD13A6B3 /* JSDSDKKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSDSDKKit.debug.xcconfig; sourceTree = "<group>"; };
 		D5BEF1DB5A79AF24101D8813C7D84332 /* Pods-JSDSDKKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSDSDKKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		E52C1B1E5E14BE7444F3E746235C61A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EF0CE0FF203F85AEDC1CE2CECADF3D3B /* Pods-JSDSDKKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSDSDKKit_Example-Info.plist"; sourceTree = "<group>"; };
 		F2F4AB394C70F5446C950A352FB8CD67 /* Pods-JSDSDKKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSDSDKKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		F6D7F16B29DD3819B2507F3253870035 /* Pods-JSDSDKKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSDSDKKit_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -118,14 +115,27 @@
 			path = "Target Support Files/Pods-JSDSDKKit_Tests";
 			sourceTree = "<group>";
 		};
-		5206DF99D543DC3C1B0D9545863F6759 /* Pod */ = {
+		44881F82B70FB02EE88A99D1370DCDA8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1C880BBC4A9ED2624962B6C29931ED6 /* JSDSDKKit.podspec */,
-				E52C1B1E5E14BE7444F3E746235C61A6 /* LICENSE */,
-				6BB2586C8590CE29F5C137175AC97AA8 /* README.md */,
+				9E620109150F8B25AD4EF222C9E6E372 /* JSDSDKKit */,
 			);
-			name = Pod;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49B551B4F8033B9FB2081516D5BFFC70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34FF79743C4311DD8F3C70379171B04A /* JSDSDKKit.modulemap */,
+				633195EBFE94B00416CB405ABF53FCEB /* JSDSDKKit-dummy.m */,
+				C324F8735CECFB92CEFDCE338419983E /* JSDSDKKit-Info.plist */,
+				273F675FD0BA80F8A27DFCE00BD1E7A8 /* JSDSDKKit-prefix.pch */,
+				731333D06C2B8CE32046561E92065AD4 /* JSDSDKKit-umbrella.h */,
+				C623EFDEB1A7CF8DE9313A24FD13A6B3 /* JSDSDKKit.debug.xcconfig */,
+				708889F255674A844CF281AA607CA9A2 /* JSDSDKKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSDSDKKit";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -136,39 +146,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7CA48DEE6EAC0227B8826F95CA0DDE8C /* JSDSDKKit */ = {
+		9E620109150F8B25AD4EF222C9E6E372 /* JSDSDKKit */ = {
 			isa = PBXGroup;
 			children = (
-				9C408394BB5E7ACF6F9B88BCA825732C /* JSDKitTools.h */,
-				934D07210D3B6144F10310B54F5A9D66 /* JSDKitTools.m */,
-				5206DF99D543DC3C1B0D9545863F6759 /* Pod */,
-				838C6CC5279C6AC300F2A240780C8964 /* Support Files */,
+				7323036D328DD9CDDDFC93AAC4B0C7A8 /* JSDKitTools.h */,
+				6F2E7D10FAB72C1981A610E5DB53B29E /* JSDKitTools.m */,
+				49B551B4F8033B9FB2081516D5BFFC70 /* Support Files */,
 			);
 			name = JSDSDKKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		838C6CC5279C6AC300F2A240780C8964 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8DAC72ACA0CD65341D04663EF1BA68FB /* JSDSDKKit.modulemap */,
-				AA1295EB3EE19640784E2734124396A6 /* JSDSDKKit-dummy.m */,
-				369B360BBECBC562EBECF4903470D02C /* JSDSDKKit-Info.plist */,
-				1C0C7D5204D343546278504FD46E9B13 /* JSDSDKKit-prefix.pch */,
-				64F71BEF27F722E10CE0D45CE5CB8058 /* JSDSDKKit-umbrella.h */,
-				29F0CD71F8A3A346317131DDFB9EBA4C /* JSDSDKKit.debug.xcconfig */,
-				4529437ED91B1D247056E8AEC4991657 /* JSDSDKKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JSDSDKKit";
-			sourceTree = "<group>";
-		};
-		BAD9B2A68699E8C1268342F677B9FB96 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7CA48DEE6EAC0227B8826F95CA0DDE8C /* JSDSDKKit */,
-			);
-			name = "Development Pods";
+			path = JSDSDKKit;
 			sourceTree = "<group>";
 		};
 		C1BFD465C77CD0380688B2CFE62F1EC0 /* Products */ = {
@@ -185,8 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BAD9B2A68699E8C1268342F677B9FB96 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				44881F82B70FB02EE88A99D1370DCDA8 /* Pods */,
 				C1BFD465C77CD0380688B2CFE62F1EC0 /* Products */,
 				F4A788CD504994B0A18EB78A5E7577B1 /* Targets Support Files */,
 			);
@@ -287,7 +273,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E3116F6E9FB4C0D583D9BD66CEB2FF42 /* PBXTargetDependency */,
+				44BCD5A9EF1C9CB6082533F8C89FE3B1 /* PBXTargetDependency */,
 			);
 			name = "Pods-JSDSDKKit_Tests";
 			productName = "Pods-JSDSDKKit_Tests";
@@ -306,7 +292,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BE61F7262B42E48CC3813B7D61478397 /* PBXTargetDependency */,
+				22D5E8A3CED7D742727F339097B3F6F4 /* PBXTargetDependency */,
 			);
 			name = "Pods-JSDSDKKit_Example";
 			productName = "Pods-JSDSDKKit_Example";
@@ -395,17 +381,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BE61F7262B42E48CC3813B7D61478397 /* PBXTargetDependency */ = {
+		22D5E8A3CED7D742727F339097B3F6F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JSDSDKKit;
 			target = 0F9D3561F7A8E9B20CFA6F8D9281AA55 /* JSDSDKKit */;
-			targetProxy = E50A3F65D24680BD44FCC67B0BA0C2DF /* PBXContainerItemProxy */;
+			targetProxy = 19FA1B1DE599595707F6B30633CC3A8C /* PBXContainerItemProxy */;
 		};
-		E3116F6E9FB4C0D583D9BD66CEB2FF42 /* PBXTargetDependency */ = {
+		44BCD5A9EF1C9CB6082533F8C89FE3B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JSDSDKKit_Example";
 			target = E86CE6BC12D47E7753EDD2CDCDA62782 /* Pods-JSDSDKKit_Example */;
-			targetProxy = 7003C83404DA2FDC34F1426D25537DE9 /* PBXContainerItemProxy */;
+			targetProxy = 5C4D3266A142DD6DC26AD60127EDE45A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -542,7 +528,7 @@
 		};
 		55F2E5B7DAB8F676CEA6D99D69B49178 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4529437ED91B1D247056E8AEC4991657 /* JSDSDKKit.release.xcconfig */;
+			baseConfigurationReference = 708889F255674A844CF281AA607CA9A2 /* JSDSDKKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -701,7 +687,7 @@
 		};
 		F4C370656A7C467D2518ECC58E0F0E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29F0CD71F8A3A346317131DDFB9EBA4C /* JSDSDKKit.debug.xcconfig */;
+			baseConfigurationReference = C623EFDEB1A7CF8DE9313A24FD13A6B3 /* JSDSDKKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
